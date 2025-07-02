@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/intros',[App\Http\Controller\IntroController::class,'show']);//classထဲမှာရှိတဲ့functionတွေကိုmethodလို့ခေါ်တယ်
+Route::get('/about',[App\Http\Controller\IntroController::class,'about']);
+Route::get('/contact',[App\Http\Controller\IntroController::class,'about']);
